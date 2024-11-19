@@ -1,0 +1,11 @@
+local placeId = game.PlaceId
+
+if placeId == 17738975314 then
+    -- Philly Street Script
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/oz490/Philly-Street-Script/refs/heads/main/Philly%20Street%20Script%20ClicksFarm"))()
+elseif placeId == 13643807539 then
+    -- South Bronx Script
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/oz490/South-Bronx-lastest/main/Southbro"))()
+else
+    print("test didnt worked false game Test")
+end
