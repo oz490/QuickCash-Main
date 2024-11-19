@@ -7,5 +7,9 @@ elseif placeId == 13643807539 then
     -- South Bronx Script
     loadstring(game:HttpGet("https://raw.githubusercontent.com/oz490/South-Bronx-lastest/main/Southbro"))()
 else
-    print("test didnt worked false game Test")
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "Game Check";
+        Text = "FALSE GAME";
+        Duration = 6; -- Time in seconds the notification stays on screen
+    })
 end
