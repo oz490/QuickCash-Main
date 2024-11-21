@@ -5,7 +5,7 @@ if placeId == 17738975314 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/oz490/Philly-Street-Script/refs/heads/main/Philly%20Street%20Script%20ClicksFarm"))()
 elseif placeId == 13643807539 then
     -- South Bronx Script
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/oz490/South-Bronx-lastest/main/Southbro"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/oz490/South-Bronx-LATEST-/refs/heads/main/South%20Bronx%20122"))()
 else
     game.StarterGui:SetCore("SendNotification", {
         Title = "Game Check";
