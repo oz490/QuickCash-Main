@@ -3,8 +3,8 @@ local placeId = game.PlaceId
 if placeId == 17738975314 then
     -- Philly Street Script
     loadstring(game:HttpGet("https://raw.githubusercontent.com/oz490/Philly-Street-Script/refs/heads/main/Philly%20Street%20Script%20ClicksFarm"))()
-elseif placeId == 13643807539 then
-    -- South Bronx Script
+elseif placeId == 13643807539 or placeId == 14413475235 then
+    -- South Bronx Script for 2 additional IDs
     loadstring(game:HttpGet("https://raw.githubusercontent.com/oz490/South-Bronx-LATEST-/refs/heads/main/South%20Bronx%20122"))()
 else
     game.StarterGui:SetCore("SendNotification", {
